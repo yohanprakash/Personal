@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="GridP">
+
+  <test thread-count="5" name="Parallel">
+  
+  <parameter name="browser" value="firefox"></parameter>
+  <classes>
+  
+  <class name="ALevelPrograms.A1_Alerts"/>
+  <class name="ALevelPrograms.A4_Information_Commands"/>
+ 
+  
+  </classes>
+  </test>
+  
+  <test thread-count="5" name="chrome">
+  
+  <parameter name="browser" value="chrome"></parameter>
+  <classes>
+  
+  <class name="ALevelPrograms.A1_Alerts"/>
+  <class name="ALevelPrograms.A4_Information_Commands"/>
+ 
+  
+  </classes>
+  </test>
+  
+ <test thread-count="5" name="safari">
+  
+  <parameter name="browser" value="safari"></parameter>
+  <classes>
+  
+  <class name="ALevelPrograms.A1_Alerts"/>
+  <class name="ALevelPrograms.A4_Information_Commands"/>
+  </classes>
+  </test>
+ 
+ <test thread-count="5" name="IE">
+  
+  <parameter name="browser" value="IE"></parameter>
+  <classes>
+  
+  <class name="ALevelPrograms.A1_Alerts"/>
+  <class name="ALevelPrograms.A4_Information_Commands"/>
+  </classes>
+  </test>
+
+ 
+ 
+</suite> <!-- GridP -->

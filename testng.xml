@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="MySuite">
+  <test thread-count="5" name="Pracise">
+  
+  
+  
+    <classes>
+      <class name="ALevelPrograms.A2_MouseOverActions">
+      
+      <methods>
+      <include name="f"/>     
+      </methods>
+      </class>
+      
+      <class name="ALevelPrograms.A1_Alerts">
+      
+      <methods>
+      <include name="handlingAlerts"/>     
+      </methods>
+      </class>
+      
+      <class name="HIghLevel.B14_FlipkartGeneric">
+      
+      <methods>
+      <include name="clickable"/>     
+      </methods>
+      </class>
+      
+    </classes>
+  </test> <!-- Pracise -->
+</suite> <!-- MySuite -->

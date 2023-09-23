@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [GridP]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Parallel(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="ALevelPrograms.A4_Information_Commands">
+        <methods>
+          <include name="Gmail"/>
+          <include name="afterTest"/>
+          <include name="google_image"/>
+          <include name="search_button"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- ALevelPrograms.A4_Information_Commands -->
+      <class name="ALevelPrograms.A1_Alerts">
+        <methods>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+          <include name="handlingAlerts"/>
+        </methods>
+      </class> <!-- ALevelPrograms.A1_Alerts -->
+    </classes>
+  </test> <!-- Parallel(failed) -->
+  <test thread-count="5" name="chrome(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="ALevelPrograms.A4_Information_Commands">
+        <methods>
+          <include name="Gmail"/>
+          <include name="afterTest"/>
+          <include name="google_image"/>
+          <include name="search_button"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- ALevelPrograms.A4_Information_Commands -->
+      <class name="ALevelPrograms.A1_Alerts">
+        <methods>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+          <include name="handlingAlerts"/>
+        </methods>
+      </class> <!-- ALevelPrograms.A1_Alerts -->
+    </classes>
+  </test> <!-- chrome(failed) -->
+  <test thread-count="5" name="safari(failed)">
+    <parameter name="browser" value="safari"/>
+    <classes>
+      <class name="ALevelPrograms.A4_Information_Commands">
+        <methods>
+          <include name="Gmail"/>
+          <include name="afterTest"/>
+          <include name="google_image"/>
+          <include name="search_button"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- ALevelPrograms.A4_Information_Commands -->
+      <class name="ALevelPrograms.A1_Alerts">
+        <methods>
+          <include name="afterTest"/>
+          <include name="handlingAlerts"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- ALevelPrograms.A1_Alerts -->
+    </classes>
+  </test> <!-- safari(failed) -->
+  <test thread-count="5" name="IE(failed)">
+    <parameter name="browser" value="IE"/>
+    <classes>
+      <class name="ALevelPrograms.A4_Information_Commands">
+        <methods>
+          <include name="Gmail"/>
+          <include name="afterTest"/>
+          <include name="google_image"/>
+          <include name="search_button"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- ALevelPrograms.A4_Information_Commands -->
+      <class name="ALevelPrograms.A1_Alerts">
+        <methods>
+          <include name="afterTest"/>
+          <include name="handlingAlerts"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- ALevelPrograms.A1_Alerts -->
+    </classes>
+  </test> <!-- IE(failed) -->
+</suite> <!-- Failed suite [GridP] -->
